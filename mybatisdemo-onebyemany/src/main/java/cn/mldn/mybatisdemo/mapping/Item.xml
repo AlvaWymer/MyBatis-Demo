@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.mldn.mapping.ItemNS">
+	<resultMap type="Item" id="ItemResultMap">
+		<id property="iid" column="iid"/>
+		<result property="title" column="title"/>
+		<!-- Item类中存在有一个subitems的集合，这个集合的内容应该通过Subitem.findAllByItem查询 -->
+		<!-- 本处的select描述的是当进行Item信息查询的时候自动查询出其对应的所有Subitem数据 -->
+		<collection property="subitems" column="iid" ofType="Subitem" javaType="java.util.List"
+			select="cn.mldn.mapping.SubitemNS.findAllByItem" />
+	</resultMap>
+	<select id="findAll" resultMap="ItemResultMap">
+		SELECT iid,title FROM item
+	</select>  
+	<!-- 此处的处理操作必须是ResultMap设置的结果，否则无法进入到上面的ResultMap的配置关联 -->
+	<select id="findById" parameterType="long" resultMap="ItemResultMap">
+		SELECT iid,title FROM item WHERE iid=#{myiid}
+	</select> 
+</mapper>

@@ -1,0 +1,4 @@
+cn\mldn\service\INewsService.class
+cn\mldn\service\impl\NewsServiceImpl.class
+cn\mldn\dao\INewsDAO.class
+cn\mldn\vo\News.class

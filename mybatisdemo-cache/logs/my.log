@@ -1,0 +1,122 @@
+2017-05-16 08:59:22,603 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 08:59:22,634 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 08:59:22,647 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 08:59:22,647 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 08:59:22,651 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:01:07,890 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:01:07,920 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:01:07,934 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:01:07,934 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:01:07,938 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:01:58,886 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:01:58,917 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:01:58,933 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:01:58,934 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:01:58,937 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:01:58,938 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:01:58,938 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 6(Long)
+2017-05-16 09:01:58,939 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:01:58,939 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 6, 中午肚子饿了么？, <<BLOB>>
+2017-05-16 09:01:58,939 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:04:15,783 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:04:15,818 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:04:15,831 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:04:15,831 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:04:15,835 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:05:11,786 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:05:11,817 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:05:11,831 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:05:11,831 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:05:11,835 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:05:11,836 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:05:11,836 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:05:11,836 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:05:11,837 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:05:11,837 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:05:58,182 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:05:58,213 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:05:58,227 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:05:58,227 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:05:58,231 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:05:58,232 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:05:58,232 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:05:58,232 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:05:58,233 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:05:58,233 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:06:42,670 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:06:42,701 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:06:42,715 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:06:42,715 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:06:42,719 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:09:51,649 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:09:51,690 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:09:51,705 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:09:51,705 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:09:51,709 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:09:51,710 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:09:51,710 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:09:51,711 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:09:51,711 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:09:51,711 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:12:36,068 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:12:36,103 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:12:36,117 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:12:36,117 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:12:36,121 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:13:06,123 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:13:06,124 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:13:06,125 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:13:06,125 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, 下午捆了吗？, <<BLOB>>
+2017-05-16 09:13:06,126 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:31:25,163 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:31:25,204 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:31:25,218 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:31:25,218 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, xxxx, <<BLOB>>
+2017-05-16 09:31:25,222 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:31:25,228 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:31:25,228 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:31:25,229 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:31:25,229 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, xxxx, <<BLOB>>
+2017-05-16 09:31:25,229 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:41:17,928 DEBUG [cn.mldn.mapping.NewsNS] - Cache Hit Ratio [cn.mldn.mapping.NewsNS]: 0.0
+2017-05-16 09:41:18,043 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:41:18,077 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:41:18,090 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:41:18,091 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, xxxx, <<BLOB>>
+2017-05-16 09:41:18,094 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:41:18,095 DEBUG [cn.mldn.mapping.NewsNS] - Cache Hit Ratio [cn.mldn.mapping.NewsNS]: 0.0
+2017-05-16 09:41:18,100 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:41:18,101 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:41:18,101 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:41:18,101 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, xxxx, <<BLOB>>
+2017-05-16 09:41:18,102 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:42:31,020 DEBUG [cn.mldn.mapping.NewsNS] - Cache Hit Ratio [cn.mldn.mapping.NewsNS]: 0.0
+2017-05-16 09:42:31,142 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:42:31,172 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:42:31,192 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:42:31,192 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, xxxx, <<BLOB>>
+2017-05-16 09:42:31,196 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:42:31,205 DEBUG [cn.mldn.mapping.NewsNS] - Cache Hit Ratio [cn.mldn.mapping.NewsNS]: 0.5
+2017-05-16 09:43:58,780 DEBUG [cn.mldn.mapping.NewsNS] - Cache Hit Ratio [cn.mldn.mapping.NewsNS]: 0.0
+2017-05-16 09:43:58,895 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:43:58,928 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:43:58,942 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:43:58,942 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, xxxx, <<BLOB>>
+2017-05-16 09:43:58,946 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:46:25,979 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:46:26,010 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:46:26,024 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:46:26,025 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, xxxx, <<BLOB>>
+2017-05-16 09:46:26,029 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:46:26,030 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:46:26,031 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:46:26,031 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:46:26,031 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, xxxx, <<BLOB>>
+2017-05-16 09:46:26,031 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:56:15,961 DEBUG [cn.mldn.mapping.NewsNS] - Cache Hit Ratio [cn.mldn.mapping.NewsNS]: 0.0
+2017-05-16 09:56:16,072 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==>  Preparing: SELECT nid,title,note FROM news WHERE nid=? 
+2017-05-16 09:56:16,100 DEBUG [cn.mldn.mapping.NewsNS.findById] - ==> Parameters: 2(Long)
+2017-05-16 09:56:16,113 TRACE [cn.mldn.mapping.NewsNS.findById] - <==    Columns: nid, title, note
+2017-05-16 09:56:16,113 TRACE [cn.mldn.mapping.NewsNS.findById] - <==        Row: 2, xxxx, <<BLOB>>
+2017-05-16 09:56:16,117 DEBUG [cn.mldn.mapping.NewsNS.findById] - <==      Total: 1
+2017-05-16 09:56:16,118 DEBUG [cn.mldn.mapping.NewsNS] - Cache Hit Ratio [cn.mldn.mapping.NewsNS]: 0.5

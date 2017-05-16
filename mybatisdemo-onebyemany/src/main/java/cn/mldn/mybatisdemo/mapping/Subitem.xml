@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.mldn.mapping.SubitemNS">
+	<resultMap type="Subitem" id="SubitemResultMap">
+		<id property="sid" column="sid"/>
+		<result property="title" column="title"/>
+		<!-- 此处配置的就是VO的关联处理操作 -->
+		<association property="item" resultMap="cn.mldn.mapping.ItemNS.ItemResultMap" column="iid" javaType="Item"/>
+	</resultMap> 
+	<select id="findAllByItem" parameterType="long" resultMap="SubitemResultMap">
+		SELECT sid,title,iid FROM subitem WHERE iid=#{mysid}
+	</select> 
+	<insert id="doCreate" parameterType="Subitem" keyProperty="sid"
+		useGeneratedKeys="true">
+		INSERT INTO subitem(title,iid) VALUES (#{title},#{item.iid}) ;
+	</insert>
+</mapper> 

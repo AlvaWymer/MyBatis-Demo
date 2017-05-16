@@ -1,0 +1,108 @@
+2017-05-16 13:47:30,529 DEBUG [cn.mldn.mapping.SubitemNS.doCreate] - ==>  Preparing: INSERT INTO subitem(title,iid) VALUES (?,?) ; 
+2017-05-16 13:47:30,563 DEBUG [cn.mldn.mapping.SubitemNS.doCreate] - ==> Parameters: 床上用品(String), 1(Long)
+2017-05-16 13:47:30,564 DEBUG [cn.mldn.mapping.SubitemNS.doCreate] - <==    Updates: 1
+2017-05-16 13:58:35,502 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==>  Preparing: SELECT iid,title FROM item WHERE iid=? 
+2017-05-16 13:58:35,532 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==> Parameters: 1(Long)
+2017-05-16 13:58:35,545 TRACE [cn.mldn.mapping.ItemNS.findById] - <==    Columns: iid, title
+2017-05-16 13:58:35,545 TRACE [cn.mldn.mapping.ItemNS.findById] - <==        Row: 1, 家居用品
+2017-05-16 13:58:35,547 DEBUG [cn.mldn.mapping.ItemNS.findById] - <==      Total: 1
+2017-05-16 14:02:15,186 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==>  Preparing: SELECT sid,title,iid FROM subitem WHERE sid=? 
+2017-05-16 14:02:15,218 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==> Parameters: 1(Long)
+2017-05-16 14:02:15,231 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <==    Columns: sid, title, iid
+2017-05-16 14:02:15,231 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <==        Row: 1, 床上用品, 1
+2017-05-16 14:02:15,233 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - <==      Total: 1
+2017-05-16 14:03:05,302 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==>  Preparing: SELECT sid,title,iid FROM subitem WHERE sid=? 
+2017-05-16 14:03:05,335 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==> Parameters: 1(Long)
+2017-05-16 14:03:05,350 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <==    Columns: sid, title, iid
+2017-05-16 14:03:05,350 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <==        Row: 1, 床上用品, 1
+2017-05-16 14:03:05,352 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - <==      Total: 1
+2017-05-16 14:03:42,725 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==>  Preparing: SELECT sid,title,iid FROM subitem WHERE sid=? 
+2017-05-16 14:03:42,760 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==> Parameters: 1(Long)
+2017-05-16 14:03:42,773 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <==    Columns: sid, title, iid
+2017-05-16 14:03:42,773 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <==        Row: 1, 床上用品, 1
+2017-05-16 14:03:42,775 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - <==      Total: 1
+2017-05-16 14:04:31,835 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==>  Preparing: SELECT sid,title,iid AS item.iid FROM subitem WHERE sid=? 
+2017-05-16 14:04:31,882 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==> Parameters: 1(Long)
+2017-05-16 14:07:41,570 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==>  Preparing: SELECT sid,title,iid FROM subitem WHERE sid=? 
+2017-05-16 14:07:41,602 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==> Parameters: 1(Long)
+2017-05-16 14:07:41,615 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <==    Columns: sid, title, iid
+2017-05-16 14:07:41,615 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <==        Row: 1, 床上用品, 1
+2017-05-16 14:07:41,617 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - <==      Total: 1
+2017-05-16 14:10:04,764 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==>  Preparing: SELECT sid,title,iid FROM subitem WHERE sid=? 
+2017-05-16 14:10:04,804 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ==> Parameters: 1(Long)
+2017-05-16 14:10:04,818 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <==    Columns: sid, title, iid
+2017-05-16 14:10:04,818 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <==        Row: 1, 床上用品, 1
+2017-05-16 14:10:04,820 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - <==      Total: 1
+2017-05-16 14:13:47,340 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==>  Preparing: SELECT iid,title FROM item WHERE iid=? 
+2017-05-16 14:13:47,374 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==> Parameters: 1(Long)
+2017-05-16 14:13:47,388 TRACE [cn.mldn.mapping.ItemNS.findById] - <==    Columns: iid, title
+2017-05-16 14:13:47,388 TRACE [cn.mldn.mapping.ItemNS.findById] - <==        Row: 1, 家居用品
+2017-05-16 14:13:47,389 DEBUG [cn.mldn.mapping.ItemNS.findById] - <==      Total: 1
+2017-05-16 14:14:40,097 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==>  Preparing: SELECT iid,title FROM item WHERE iid=? 
+2017-05-16 14:14:40,130 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==> Parameters: 1(Long)
+2017-05-16 14:14:40,144 TRACE [cn.mldn.mapping.ItemNS.findById] - <==    Columns: iid, title
+2017-05-16 14:14:40,144 TRACE [cn.mldn.mapping.ItemNS.findById] - <==        Row: 1, 家居用品
+2017-05-16 14:14:40,146 DEBUG [cn.mldn.mapping.ItemNS.findById] - <==      Total: 1
+2017-05-16 14:16:03,032 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==>  Preparing: SELECT iid,title FROM item WHERE iid=? 
+2017-05-16 14:16:03,063 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==> Parameters: 1(Long)
+2017-05-16 14:16:03,076 TRACE [cn.mldn.mapping.ItemNS.findById] - <==    Columns: iid, title
+2017-05-16 14:16:03,076 TRACE [cn.mldn.mapping.ItemNS.findById] - <==        Row: 1, 家居用品
+2017-05-16 14:16:03,078 DEBUG [cn.mldn.mapping.ItemNS.findById] - <==      Total: 1
+2017-05-16 14:16:44,382 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==>  Preparing: SELECT iid,title FROM item WHERE iid=? 
+2017-05-16 14:16:44,419 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==> Parameters: 1(Long)
+2017-05-16 14:16:44,432 TRACE [cn.mldn.mapping.ItemNS.findById] - <==    Columns: iid, title
+2017-05-16 14:16:44,432 TRACE [cn.mldn.mapping.ItemNS.findById] - <==        Row: 1, 家居用品
+2017-05-16 14:16:44,434 DEBUG [cn.mldn.mapping.ItemNS.findById] - <==      Total: 1
+2017-05-16 14:17:19,615 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==>  Preparing: SELECT iid,title FROM item WHERE iid=? 
+2017-05-16 14:17:19,653 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==> Parameters: 1(Long)
+2017-05-16 14:17:19,667 TRACE [cn.mldn.mapping.ItemNS.findById] - <==    Columns: iid, title
+2017-05-16 14:17:19,667 TRACE [cn.mldn.mapping.ItemNS.findById] - <==        Row: 1, 家居用品
+2017-05-16 14:17:19,669 DEBUG [cn.mldn.mapping.ItemNS.findById] - <==      Total: 1
+2017-05-16 14:18:05,070 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==>  Preparing: SELECT iid,title FROM item WHERE iid=? 
+2017-05-16 14:18:05,103 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==> Parameters: 1(Long)
+2017-05-16 14:18:05,116 TRACE [cn.mldn.mapping.ItemNS.findById] - <==    Columns: iid, title
+2017-05-16 14:18:05,116 TRACE [cn.mldn.mapping.ItemNS.findById] - <==        Row: 1, 家居用品
+2017-05-16 14:18:05,118 DEBUG [cn.mldn.mapping.ItemNS.findById] - <==      Total: 1
+2017-05-16 14:20:05,649 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==>  Preparing: SELECT iid,title FROM item WHERE iid=? 
+2017-05-16 14:20:05,680 DEBUG [cn.mldn.mapping.ItemNS.findById] - ==> Parameters: 1(Long)
+2017-05-16 14:20:05,694 TRACE [cn.mldn.mapping.ItemNS.findById] - <==    Columns: iid, title
+2017-05-16 14:20:05,694 TRACE [cn.mldn.mapping.ItemNS.findById] - <==        Row: 1, 家居用品
+2017-05-16 14:20:05,696 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ====>  Preparing: SELECT sid,title,iid FROM subitem WHERE iid=? 
+2017-05-16 14:20:05,697 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ====> Parameters: 1(Long)
+2017-05-16 14:20:05,697 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <====    Columns: sid, title, iid
+2017-05-16 14:20:05,697 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <====        Row: 1, 床上用品, 1
+2017-05-16 14:20:05,698 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - <====      Total: 1
+2017-05-16 14:20:05,699 DEBUG [cn.mldn.mapping.ItemNS.findById] - <==      Total: 1
+2017-05-16 14:22:37,244 DEBUG [cn.mldn.mapping.ItemNS.findAll] - ==>  Preparing: SELECT iid,title FROM item 
+2017-05-16 14:22:37,273 DEBUG [cn.mldn.mapping.ItemNS.findAll] - ==> Parameters: 
+2017-05-16 14:22:37,287 TRACE [cn.mldn.mapping.ItemNS.findAll] - <==    Columns: iid, title
+2017-05-16 14:22:37,287 TRACE [cn.mldn.mapping.ItemNS.findAll] - <==        Row: 1, 家居用品
+2017-05-16 14:22:37,289 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ====>  Preparing: SELECT sid,title,iid FROM subitem WHERE iid=? 
+2017-05-16 14:22:37,290 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ====> Parameters: 1(Long)
+2017-05-16 14:22:37,291 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <====    Columns: sid, title, iid
+2017-05-16 14:22:37,291 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <====        Row: 1, 床上用品, 1
+2017-05-16 14:22:37,292 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - <====      Total: 1
+2017-05-16 14:22:37,292 TRACE [cn.mldn.mapping.ItemNS.findAll] - <==        Row: 2, 电子产品
+2017-05-16 14:22:37,293 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ====>  Preparing: SELECT sid,title,iid FROM subitem WHERE iid=? 
+2017-05-16 14:22:37,293 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ====> Parameters: 2(Long)
+2017-05-16 14:22:37,293 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - <====      Total: 0
+2017-05-16 14:22:37,294 DEBUG [cn.mldn.mapping.ItemNS.findAll] - <==      Total: 2
+2017-05-16 14:23:19,586 DEBUG [cn.mldn.mapping.SubitemNS.doCreate] - ==>  Preparing: INSERT INTO subitem(title,iid) VALUES (?,?) ; 
+2017-05-16 14:23:19,616 DEBUG [cn.mldn.mapping.SubitemNS.doCreate] - ==> Parameters: U盘(String), 2(Long)
+2017-05-16 14:23:19,616 DEBUG [cn.mldn.mapping.SubitemNS.doCreate] - <==    Updates: 1
+2017-05-16 14:23:29,577 DEBUG [cn.mldn.mapping.ItemNS.findAll] - ==>  Preparing: SELECT iid,title FROM item 
+2017-05-16 14:23:29,610 DEBUG [cn.mldn.mapping.ItemNS.findAll] - ==> Parameters: 
+2017-05-16 14:23:29,624 TRACE [cn.mldn.mapping.ItemNS.findAll] - <==    Columns: iid, title
+2017-05-16 14:23:29,624 TRACE [cn.mldn.mapping.ItemNS.findAll] - <==        Row: 1, 家居用品
+2017-05-16 14:23:29,626 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ====>  Preparing: SELECT sid,title,iid FROM subitem WHERE iid=? 
+2017-05-16 14:23:29,627 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ====> Parameters: 1(Long)
+2017-05-16 14:23:29,627 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <====    Columns: sid, title, iid
+2017-05-16 14:23:29,627 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <====        Row: 1, 床上用品, 1
+2017-05-16 14:23:29,629 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - <====      Total: 1
+2017-05-16 14:23:29,629 TRACE [cn.mldn.mapping.ItemNS.findAll] - <==        Row: 2, 电子产品
+2017-05-16 14:23:29,629 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ====>  Preparing: SELECT sid,title,iid FROM subitem WHERE iid=? 
+2017-05-16 14:23:29,629 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - ====> Parameters: 2(Long)
+2017-05-16 14:23:29,630 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <====    Columns: sid, title, iid
+2017-05-16 14:23:29,630 TRACE [cn.mldn.mapping.SubitemNS.findAllByItem] - <====        Row: 2, U盘, 2
+2017-05-16 14:23:29,631 DEBUG [cn.mldn.mapping.SubitemNS.findAllByItem] - <====      Total: 1
+2017-05-16 14:23:29,631 DEBUG [cn.mldn.mapping.ItemNS.findAll] - <==      Total: 2
